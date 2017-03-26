@@ -9,35 +9,35 @@
 </head>
 <body>
 <!--This div wraps the entire page-->
-    <div class="site-wrapper">
-        <!--Here is your header with the navigation nested inside -->
-        <header class="site-header" role="banner">
-            <div class="container">
-              <!--Insert Logo directive here -->
-                <logo-directive class="logo"></logo-directive>
-                <nav class="site-nav">
-                    <ul class="primary-nav">
-                        <!-- Navs go here -->
-                        <div><p><a ui-sref="home">Home</a></p></div>
-                        <div><p><a ui-sref="about">About</a></p></div>
-                        <div><p><a ui-sref="blog">Blog</a></p></div>
-                        <div><p><a ui-sref="shop">Shop</a></p></div>
-                    </ul>
-                </nav>
-                <button class="hamburger toggle-nav js-toggle-nav" ng-click="showNav">
+<div class="site-wrapper">
+    <!--Here is your header with the navigation nested inside -->
+    <header class="site-header" role="banner">
+        <div class="container">
+            <!--Insert Logo directive here -->
+            <logo-directive class="logo"></logo-directive>
+            <nav class="site-nav">
+                <ul class="primary-nav">
+                    <!-- Navs go here -->
+                    <div><p><a ui-sref="home">Home</a></p></div>
+                    <div><p><a ui-sref="about">About</a></p></div>
+                    <div><p><a ui-sref="blog">Blog</a></p></div>
+                    <div><p><a ui-sref="shop">Shop</a></p></div>
+                </ul>
+            </nav>
+            <button class="hamburger toggle-nav js-toggle-nav" ng-click="showNav">
                     <span class="hamburger-box"><span class="hamburger-inner"></span>
                     </span>
-                </button>
+            </button>
 
-            </div>
-        </header>
-        <!--This is the main wrapper -->
-        <main class="site-main" role="main">
+        </div>
+    </header>
+    <!--This is the main wrapper -->
+    <main class="site-main" role="main">
 
         <div ui-view></div>
 
-        </main>
-        </div>
+    </main>
+</div>
 
 
 <!--ADD ALL YOUR SCRIPTS HERE -->

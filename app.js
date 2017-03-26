@@ -1,4 +1,4 @@
-angular.module('assessment',['ui.router'])
+angular.module('assessment', ['ui.router'])
     .config(function ($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('home', {
@@ -8,7 +8,7 @@ angular.module('assessment',['ui.router'])
             .state('about', {
                 url: '/about',
                 templateUrl: './views/about.html',
-                 controller: 'shopCtrl'
+                controller: 'shopCtrl'
             })
             .state('blog', {
                 url: '/blog',
@@ -19,7 +19,7 @@ angular.module('assessment',['ui.router'])
                 templateUrl: './views/shop.html',
                 controller: 'shopCtrl'
             })
-            .state('productdetails',{
+            .state('productdetails', {
                 url: '/productdetails/:id',
                 templateUrl: './views/product-details.html',
                 controller: 'productDetailsCtrl'
